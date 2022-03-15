@@ -1,0 +1,11 @@
+#result{
+    height: 15vh;
+    width: 15%;
+    background-color: aquamarine;
+    border-radius: 10px;
+    color: brown;
+    align-items: center;
+}
+.demo{
+    color: brown;
+}
