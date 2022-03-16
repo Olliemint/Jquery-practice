@@ -2,7 +2,7 @@ function Contact(first, last){
     this.Firstname = first;
     this.Lastname = last;
     Contact.prototype.Fullname = function(){
-        return this.Firstname + "" + this.Lastname;
+        return this.Firstname + " " + this.Lastname;
     };
 };
 
@@ -28,7 +28,7 @@ $(document).ready(function(){
         
 
         var newContact = new Contact(inputtedFirstName, inputtedLastName);
-        
+    
         $("#contacts").append("<li><span class='contact'>" + newContact.Fullname()+  "</span></li>");
 // alert(newContact);
 
